@@ -4,7 +4,7 @@ module.exports = {
     url: 'https://sgl.github.io',
     baseUrl: '/',
     onBrokenLinks: 'throw',
-    favicon: 'img/favicon.ico',
+    favicon: 'img/favicon.png',
     organizationName: 'JosunLP', // Usually your GitHub org/user name.
     projectName: 'Social-graphics-library', // Usually your repo name.
     themeConfig: {
