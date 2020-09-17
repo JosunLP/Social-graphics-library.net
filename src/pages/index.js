@@ -7,11 +7,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 const features = [{
-        title: 'Easy to Use',
-        imageUrl: 'img/undraw_docusaurus_mountain.svg',
+        title: 'Working for a Community isn\'t easy',
+        imageUrl: 'img/3441.svg',
         description: ( <
             >
-            Docusaurus was designed from the ground up to be easily installed and used to get your website up and running quickly. <
+            Equipping a constantly changing gaming community with the latest social media graphics is a huge effort.There is a simpler solution, especially when equipping esport teams! <
             />
         ),
     },
@@ -20,19 +20,17 @@ const features = [{
         imageUrl: 'img/undraw_docusaurus_tree.svg',
         description: ( <
             >
-            Docusaurus lets you focus on your docs, and we & apos; ll do the chores.Go
-            ahead and move your docs into the < code > docs < /code> directory. <
-            />
+            By using the social graphics library in your own tools, the resources of the design team can be focused on the really important projects! < / >
         ),
     },
     {
-        title: 'Powered by React',
+        title: 'Modular and Simple',
         imageUrl: 'img/undraw_docusaurus_react.svg',
         description: ( <
             >
-            Extend or customize your website layout by reusing React.Docusaurus can be extended
-            while reusing the same header and footer. <
-            />
+            '
+            Thanks to the very clear class system, new templates can be created extremely quickly.The system is therefore very flexible!' < /
+            >
         ),
     },
 ];
@@ -47,13 +45,13 @@ function Feature({ imageUrl, title, description }) {
                 img className = { styles.featureImage }
                 src = { imgUrl }
                 alt = { title }
-                /> <
-                /div>
+                /> < /
+                div >
             )
         } <
         h3 > { title } < /h3> <
-        p > { description } < /p> <
-        /div>
+        p > { description } < /p> < /
+        div >
     );
 }
 
@@ -80,10 +78,10 @@ function Home() {
         }
         to = { useBaseUrl('docs/') } >
         Get Started <
-        /Link> <
-        /div> <
-        /div> <
-        /header> <
+        /Link> < /
+        div > <
+        /div> < /
+        header > <
         main > {
             features && features.length > 0 && ( <
                 section className = { styles.features } >
@@ -96,13 +94,13 @@ function Home() {
                         />
                     ))
                 } <
-                /div> <
-                /div> <
+                /div> < /
+                div > <
                 /section>
             )
         } <
-        /main> <
-        /Layout>
+        /main> < /
+        Layout >
     );
 }
 
