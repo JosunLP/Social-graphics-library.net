@@ -11,13 +11,12 @@ const features = [{
         imageUrl: 'img/3441.svg',
         description: ( <
             >
-            Equipping a constantly changing gaming community with the latest social media graphics is a huge effort.There is a simpler solution, especially when equipping esport teams! <
-            />
+            Equipping a constantly changing gaming community with the latest social media graphics is a huge effort.There is a simpler solution, especially when equipping esport teams! < />
         ),
     },
     {
         title: 'Focus on What Matters',
-        imageUrl: 'img/undraw_docusaurus_tree.svg',
+        imageUrl: 'img/458.svg',
         description: ( <
             >
             By using the social graphics library in your own tools, the resources of the design team can be focused on the really important projects! < / >
@@ -25,12 +24,10 @@ const features = [{
     },
     {
         title: 'Modular and Simple',
-        imageUrl: 'img/undraw_docusaurus_react.svg',
+        imageUrl: 'img/666.svg',
         description: ( <
             >
-            '
-            Thanks to the very clear class system, new templates can be created extremely quickly.The system is therefore very flexible!' < /
-            >
+            // Thanks to the very clear class system, new templates can be created extremely quickly. The system is therefore very flexible! < / >
         ),
     },
 ];

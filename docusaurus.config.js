@@ -33,12 +33,16 @@ module.exports = {
             links: [{
                     title: 'Docs',
                     items: [{
-                            label: 'Style Guide',
+                            label: 'Basic generation',
                             to: 'docs/',
                         },
                         {
-                            label: 'Second Doc',
-                            to: 'docs/doc2/',
+                            label: 'Creating new style clases',
+                            to: 'docs/new_style_classes/',
+                        },
+                        {
+                            label: 'Multi calls',
+                            to: 'docs/multi_calls/',
                         },
                     ],
                 },
@@ -57,12 +61,12 @@ module.exports = {
                         },
                         {
                             label: 'GitHub',
-                            href: 'https://github.com/JosunLP',
+                            href: 'https://github.com/josunlp/Social-graphics-library/',
                         },
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} Social-graphics-library, Built with <3 and Docusaurus 2.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Social-graphics-library, build with <3 and Docusaurus 2.`,
         },
     },
     presets: [
