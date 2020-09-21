@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{67:function(a){a.exports=JSON.parse('{"allTagsPath":"/socialGraphicsLibrary/blog/tags","slug":"hello","name":"hello","count":1,"permalink":"/socialGraphicsLibrary/blog/tags/hello"}')}}]);
