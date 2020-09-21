@@ -1,8 +1,8 @@
 module.exports = {
     title: 'Social-graphics-library',
     tagline: 'An easy to use JS tool to create Social Media Banners',
-    url: 'https://sgl.github.io',
-    baseUrl: '/',
+    url: 'https://JosunLP.github.io',
+    baseUrl: '/socialGraphicsLibrary/',
     onBrokenLinks: 'throw',
     favicon: 'img/favicon.png',
     organizationName: 'JosunLP', // Usually your GitHub org/user name.
