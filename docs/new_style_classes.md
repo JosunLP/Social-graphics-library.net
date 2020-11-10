@@ -34,7 +34,7 @@ ___
 
 The new class is integrated in the `generator` method in the`SocialGraphicsLibrary` as a `case` in the `glc.ts` file.
 
-```
+___
 
 public static generator(teamName: string, playerName:string, mode: string, containerId: string, imgMode: string): void {
         let svgString: string;
