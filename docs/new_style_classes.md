@@ -74,7 +74,6 @@ public static generator(teamName: string, playerName:string, mode: string, conta
 
     }
 
-```
 
 > The class always(!) has a field for the width, one for the height and a method which returns the SVG string.
 
