@@ -12,22 +12,19 @@ ___
 
 Within the SVG, the corresponding text entries for names and / or team names are replaced by the JS variables.
 
-```
+    export class Example_Template {
 
-export class Example_Template {
+        static readonly width: number = 1000;
 
-      static readonly width: number = 1000;
+        static readonly height: number = 1000;
 
-      static readonly height: number = 1000;
+        static template(teamName: string, playerName: string): string {
+            teamName;
+            playerName;
+            return 'svg string';
+        }
+        }
 
-      static template(teamName: string, playerName: string): string {
-        teamName;
-        playerName;
-        return 'svg string';
-      }
-    }
-
-```
 
 ___
 
@@ -37,31 +34,30 @@ The new class is integrated in the `generator` method in the`SocialGraphicsLibra
 
 ___
 
-public static generator(teamName: string, playerName:string, mode: string, containerId: string, imgMode: string): void {
-        let svgString: string;
-        let width: number;
-        let height: number;
+    public static generator(teamName: string, playerName:string, mode: string, containerId: string, imgMode: string): void {
+            let svgString: string;
+            let width: number;
+            let height: number;
 
-        if (teamName === "" ) {
-            teamName = "Community";
-        }
+            if (teamName === "" ) {
+                teamName = "Community";
+            }
 
-        if (playerName === "") {
-            playerName = "Player";
-        }
+            if (playerName === "") {
+                playerName = "Player";
+            }
 
-        switch (mode) {
-            case 'youtube-title':
-                svgString = Youtube_Template.template(teamName, playerName);
-                width = Youtube_Template.width;
-                height = Youtube_Template.height;
-                break;
+            switch (mode) {
+                case 'youtube-title':
+                    svgString = Youtube_Template.template(teamName, playerName);
+                    width = Youtube_Template.width;
+                    height = Youtube_Template.height;
+                    break;
 
-------------------------------------------------------------------------------
- Here ->
+___
 
-
-------------------------------------------------------------------------------
+Here ->
+___
 
             default:
                 svgString = False_Template.template();
@@ -73,7 +69,6 @@ public static generator(teamName: string, playerName:string, mode: string, conta
         this.printImage(svgString, width, height, containerId, imgMode);
 
     }
-
 
 > The class always(!) has a field for the width, one for the height and a method which returns the SVG string.
 
