@@ -25,7 +25,8 @@ new SocialGraphicsLibrary
       teamName,
       mode,
       containerId,
-      imgMode
+      imgMode,
+      generateLink
       );
 ```
 ___
@@ -62,3 +63,8 @@ ___
     * svg
     * jpeg
     * webp
+
+* Generate Link
+  * This alternative mode ensures the automatic rendering of a download link
+    * true
+    * false

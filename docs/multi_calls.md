@@ -21,7 +21,8 @@ new SocialGraphicsLibrary
                 {
                     mode: 'youtube-title',
                     containerId: 'img-container-4',
-                    imgMode: 'png'
+                    imgMode: 'webp',
+                    generateLink: true
                 },
                 {
                     mode: 'logo',

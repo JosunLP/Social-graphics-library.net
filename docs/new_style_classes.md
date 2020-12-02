@@ -14,17 +14,18 @@ Within the SVG, the corresponding text entries for names and / or team names are
 
 ```
 
-export class Twitch_Template {
+export class Example_Template {
 
-    static width = 1920;
-    static height = 480;
+      static readonly width: number = 1000;
 
-    static template(teamName: string, playerName:string): string {
+      static readonly height: number = 1000;
 
-        return '<svg></svg>';
-
+      static template(teamName: string, playerName: string): string {
+        teamName;
+        playerName;
+        return 'svg string';
+      }
     }
-}
 
 ```
 
