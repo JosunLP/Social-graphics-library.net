@@ -2,7 +2,7 @@ module.exports = {
     title: 'Social-graphics-library',
     tagline: 'An easy to use JS tool to create Social Media Banners',
     url: 'https://JosunLP.github.io',
-    baseUrl: '/socialGraphicsLibrary/',
+    baseUrl: '/',
     onBrokenLinks: 'throw',
     favicon: 'img/favicon.png',
     organizationName: 'JosunLP', // Usually your GitHub org/user name.
