@@ -75,3 +75,21 @@ public static generator(teamName: string, playerName:string, mode: string, conta
     }
 
 ```
+
+> The class always(!) has a field for the width, one for the height and a method which returns the SVG string.
+
+Various templates for the large social media platforms in .afpub format are available in the `assetes` folder for creating and adapting. These can be opened and edited with programs from the
+[Affinity Family of Serif](http://affinity.serif.com/). Alternatively, the files generated from it are located in the `svg` directory.
+
+### Caution!
+
+> When creating an SVG file, it must be ensured that the later dynamic parts are stored as TEXT and not as a vector.
+
+After the SVG is ready, it can be saved in the `svg` directory and the source code of the SVG is entered as a string in the `template()` method. The corresponding test points are replaced by the variables that are transferred to the method.
+
+As long as the name of the file (and the class) is one of the existing ones, with the exception of the example, the example template can now simply be replaced and it will work with the new one. Should the name be different
+the class must be entered in the glc file in the `generator` methods.
+
+Then just compile, integrate and it's done.
+
+![Example Gif](https://raw.githubusercontent.com/JosunLP/Social-graphics-library/master/assets/Demo.gif)
