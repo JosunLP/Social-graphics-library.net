@@ -2,7 +2,7 @@ module.exports = {
     title: 'Social-graphics-library',
     tagline: 'An easy to use JS tool to create Social Media Banners',
     url: 'https://JosunLP.github.io',
-    baseUrl: '/Social-graphics-library/',
+    baseUrl: '/Social-graphics-library',
     onBrokenLinks: 'throw',
     favicon: 'img/favicon.png',
     organizationName: 'JosunLP', // Usually your GitHub org/user name.
@@ -53,9 +53,14 @@ module.exports = {
                 {
                     title: 'Community',
                     items: [{
-                        label: 'Discord',
-                        href: 'https://discord.gg/fraspbc',
-                    }],
+                            label: 'Discord',
+                            href: 'https://discord.gg/fraspbc',
+                        },
+                        {
+                            label: 'FearNixx Gaming',
+                            href: 'https://fearnixx.de/',
+                        },
+                    ],
                 },
                 {
                     title: 'More',
@@ -67,6 +72,10 @@ module.exports = {
                             label: 'GitHub',
                             href: 'https://github.com/josunlp/Social-graphics-library/',
                         },
+                        {
+                            label: 'NPM',
+                            href: 'https://www.npmjs.com/package/social-graphics-library/',
+                        }
                     ],
                 },
             ],

@@ -24,7 +24,7 @@ const features = [{
         title: 'Modular and Simple',
         imageUrl: 'img/666.svg',
         description: ( <>
-            // Thanks to the very clear class system, new templates can be created extremely quickly. The system is therefore very flexible! </>
+            Thanks to the very clear template system, fresh ones can be created extreme quickly. The system is therefore very flexible! </>
         ),
     },
 ];
@@ -68,7 +68,17 @@ function Home() {
                     ))
                 } </div> </div> </section>
             )
-        } </main> </Layout>
+        }
+		<div className="downloads">
+		<a href="https://raw.githubusercontent.com/JosunLP/Social-graphics-library/master/dist/sgl.bundle.js" target="_blank" download>
+		<button id="downloadScript" className="button button--outline button--secondary button--lg">Download Script</button>
+		</a>
+		<div className="downloadsContent">
+		clone the code from <a href="https://github.com/JosunLP/Social-graphics-library" target="_blank">Github </a>
+		<br/><br/>or use <code>npm i social-graphics-library</code>
+		</div>
+		</div>
+		</main> </Layout>
     );
 }
 
