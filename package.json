@@ -23,7 +23,7 @@
         "npm-to-yarn": "^1.0.0-2",
         "react": "^16.8.4",
         "react-dom": "^16.8.4",
-        "workbox-routing": "^5.0.0",
+        "workbox-routing": "^6.0.0",
         "workbox-strategies": "^5.0.0"
     },
     "browserslist": {
