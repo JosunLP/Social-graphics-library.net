@@ -56,3 +56,66 @@
 .downloads .downloadsContent {
     padding-bottom: 2rem;
 }
+
+.exampleImplementation {
+    width: 100%;
+    min-height: 15rem;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.exampleInput input {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border-style: none;
+    background-color: #2583C2;
+    color: white;
+    font-size: 1rem;
+}
+
+.profile {
+    height: 16rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    width: 80%;
+    margin-left: 13%;
+    margin-right: 7%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile a {
+    text-align: center;
+    font-weight: lighter;
+    padding: 1rem;
+}
+
+.profilePic {
+    width: 20%;
+    height: auto;
+    display: block;
+}
+
+.profilePic img {
+    width: auto;
+    height: auto;
+    margin-bottom: -2rem;
+}
+
+.profileBanner {
+    width: 70%;
+    height: auto;
+    display: block;
+}
+
+.profileBanner img {
+    width: auto;
+    height: auto;
+    border-radius: 2rem;
+}
