@@ -75,6 +75,10 @@ module.exports = {
                         {
                             label: 'NPM',
                             href: 'https://www.npmjs.com/package/social-graphics-library/',
+                        },
+                        {
+                            label: 'Impressum',
+                            href: 'https://josunlp.de/impressum/',
                         }
                     ],
                 },
