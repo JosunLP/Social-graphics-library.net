@@ -7,6 +7,7 @@ module.exports = {
     favicon: 'img/favicon.png',
     organizationName: 'JosunLP', // Usually your GitHub org/user name.
     projectName: 'Social-graphics-library', // Usually your repo name.
+    // scripts: ['./static/js/example.js'],
     themeConfig: {
         navbar: {
             title: 'Social-graphics-library',

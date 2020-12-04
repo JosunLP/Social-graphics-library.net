@@ -78,6 +78,26 @@ function Home() {
 		<br/><br/>or use <code>npm i social-graphics-library</code>
 		</div>
 		</div>
+		
+		<div className="exampleImplementation">
+		<div className="exampleInput">
+		Player Name:
+		<input type="text" id="uName" alt="Name"></input>
+		Team Name:
+		<input type="text" id="tName" alt="Name"></input>
+		<button type="submit" className="button button--outline button--secondary" id="generate">Generate</button>
+		</div>
+		<div className="profile">
+		<div className="profilePic">
+		<div id="img-container-1"></div>
+		</div>
+		<div className="profileBanner">
+		<div id="img-container-2"></div>
+		</div>
+		</div>
+        </div>
+		<script src="./example.js" type="module"></script>
+		
 		</main> </Layout>
     );
 }
