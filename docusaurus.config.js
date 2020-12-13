@@ -84,7 +84,7 @@ module.exports = {
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} Social-graphics-library, build with love and Docusaurus 2.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Social-graphics-library, build with ❤ and Docusaurus 2.`,
         },
     },
     presets: [
