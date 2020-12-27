@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Social-graphics-library',
     tagline: 'An easy to use JS tool to create Social Media Banners',
-    url: 'https://JosunLP.github.io',
+    url: 'https://social-graphics-library.net',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     favicon: 'img/favicon.png',
