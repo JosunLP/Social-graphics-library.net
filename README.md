@@ -36,5 +36,4 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
     GIT_USER=josunlp \
     USE_SSH=true \
-    npm run deploy
-
+    sudo npm run deploy
